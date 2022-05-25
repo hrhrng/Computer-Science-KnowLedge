@@ -1,0 +1,99 @@
+{
+  "main": {
+    "id": "af261e265d6c585c",
+    "type": "split",
+    "children": [
+      {
+        "id": "a4100ecf5b2b597d",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "files/IP.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4a3dc2f04896a044",
+    "type": "split",
+    "children": [
+      {
+        "id": "1bd4b8ceb6c4d013",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0a8674b38e4dee05",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "d1b99bf9f399d506",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d680241003cb7338",
+    "type": "split",
+    "children": [
+      {
+        "id": "e62e8fc907a78653",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "04963c7527a768ab",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "files/IP.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "a4100ecf5b2b597d",
+  "lastOpenFiles": [
+    "files/IP.md",
+    "files/TCP.md",
+    "README.md",
+    "files/route.md",
+    "files/MySQL.md",
+    "files/pic/ipstructrue.png"
+  ]
+}
