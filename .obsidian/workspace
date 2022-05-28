@@ -7,12 +7,8 @@
         "id": "a4100ecf5b2b597d",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "files/IP.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -69,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "files/IP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
