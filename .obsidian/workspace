@@ -7,8 +7,12 @@
         "id": "a4100ecf5b2b597d",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "files/Untitled.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "files/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,8 +89,9 @@
   },
   "active": "a4100ecf5b2b597d",
   "lastOpenFiles": [
-    "files/IP.md",
+    "files/Untitled.md",
     "files/TCP.md",
+    "files/IP.md",
     "README.md",
     "files/route.md",
     "files/MySQL.md",
