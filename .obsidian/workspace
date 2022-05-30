@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "a959c90db41bffb0",
+        "id": "bd739cccf4742b7b",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -53,7 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 100
   },
   "right": {
     "id": "d680241003cb7338",
@@ -108,14 +108,7 @@
                 "useHierarchy": true
               }
             }
-          }
-        ],
-        "currentTab": 2
-      },
-      {
-        "id": "ed1ff93563777b3f",
-        "type": "tabs",
-        "children": [
+          },
           {
             "id": "c2c16ffb5c7311da",
             "type": "leaf",
@@ -124,24 +117,25 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
   },
-  "active": "a959c90db41bffb0",
+  "active": "bd739cccf4742b7b",
   "lastOpenFiles": [
     "files/cglib动态代理.md",
-    "README.md",
-    "files/JetCache.md",
-    "files/QUIC.md",
-    "files/route.md",
-    "files/Spring.md",
+    "files/JDK动态代理.md",
     "files/TCP.md",
+    "files/Spring.md",
+    "files/route.md",
+    "files/QUIC.md",
     "files/MySQL的三大日志.md",
+    "files/MySQL的存储引擎和索引结构.md",
     "files/MyBatis.md",
-    "files/MySQL的存储引擎和索引结构.md"
+    "files/JetCache.md"
   ]
 }
