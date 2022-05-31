@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "files/cglib动态代理.md",
+            "file": "files/Spring.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "files/cglib动态代理.md",
+                "file": "files/Spring.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "files/cglib动态代理.md"
+                "file": "files/Spring.md"
               }
             }
           },
@@ -127,15 +127,15 @@
   },
   "active": "bd739cccf4742b7b",
   "lastOpenFiles": [
+    "files/Spring.md",
+    "README.md",
+    "files/LocalCache.md",
     "files/cglib动态代理.md",
     "files/JDK动态代理.md",
     "files/TCP.md",
-    "files/Spring.md",
     "files/route.md",
     "files/QUIC.md",
     "files/MySQL的三大日志.md",
-    "files/MySQL的存储引擎和索引结构.md",
-    "files/MyBatis.md",
-    "files/JetCache.md"
+    "files/MySQL的存储引擎和索引结构.md"
   ]
 }
