@@ -9,9 +9,19 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "files/Spring.md",
-            "mode": "source",
-            "source": false
+            "file": "README.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "40bcbb50cb3df197",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "conflict-files-obsidian-git.md",
+            "mode": "source"
           }
         }
       }
@@ -53,7 +63,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 100
+    "width": 392
   },
   "right": {
     "id": "d680241003cb7338",
@@ -69,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "files/Spring.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "files/Spring.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           },
@@ -122,20 +132,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "bd739cccf4742b7b",
+  "active": "40bcbb50cb3df197",
   "lastOpenFiles": [
-    "files/Spring.md",
+    "conflict-files-obsidian-git.md",
     "README.md",
     "files/LocalCache.md",
+    "Pasted image 20220605112200.png",
+    "files/Spring.md",
     "files/cglib动态代理.md",
     "files/JDK动态代理.md",
     "files/TCP.md",
     "files/route.md",
-    "files/QUIC.md",
-    "files/MySQL的三大日志.md",
-    "files/MySQL的存储引擎和索引结构.md"
+    "files/QUIC.md"
   ]
 }
