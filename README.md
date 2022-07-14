@@ -24,11 +24,13 @@
 	* Linux的进程调度算法
 	* Linux的内存模型
 	* Linux常用系统接口
+	* [死锁（以MySQL死锁为例）](files/死锁（以MySQL死锁为例）.md)
 * Java
 	* [Java中的小问题](files/Java中的小问题)
 	* [cglib动态代理（源码浅析）](cglib动态代理.md)
 	* [JDK动态代理（源码浅析）](JDK动态代理.md)
 	* [JMM](files/JMM.md)
+	* [ConcurrentLinkedQueue](files/ConcurrentLinkedQueue.md)
 * C++/C
 * Go
 * Python
