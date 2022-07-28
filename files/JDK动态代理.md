@@ -97,7 +97,9 @@ public Object invoke(Object proxy, Method method, Object[] args) throws Invocati
 3. 至此，调用链条结束。
 
 ### 如何生成代理类
-1. 首先在工厂类的getProxy方法中调用Proxy的newProxyInstance方法，newProxyInstance方法如下，参数分别为`类加载器` `需要代理的接口` `自定义的InvocationHandler`
+1. 首先在工厂类的getProxy方法中调用Proxy的newProxyInstance方法，newProxyInstance方法如下，参数分别为
+
+   `类加载器` `需要代理的接口` `自定义的InvocationHandler`
 ```java
 // Proxy
 public static Object newProxyInstance(ClassLoader loader,  
@@ -110,7 +112,7 @@ public static Object newProxyInstance(ClassLoader loader,
                                 : Reflection.getCallerClass();  
   
     /*  
-     * Look up or generate the designated proxy class and its constructor.     */    Constructor<?> cons = getProxyConstructor(caller, loader, interfaces);  
+     * Look up or generate the designated proxy class and its constructor.     */    Constructor<?> cons = 			getProxyConstructor(caller, loader, interfaces);  
   
     return newProxyInstance(caller, cons, h);  
 }
@@ -166,6 +168,7 @@ public <K> Sub<K> sub(K key) {
 （get的底层会用到`new ProxyBuilder(ld, clv.key()).build()` 这条语句才是生成构造器的关键)
 之后将map中以sub为key的entry的value替换成mv的v再返回，上层的程序就能获取到构造器对象了
 这里的多线程操作也很值得思考
+
 ``` java
 // Sub
 Sub(K key) {  
@@ -261,6 +264,7 @@ public V get() throws RecursiveInvocationException {
 缓存利用的是ClassLoader内部的缓存，key为Sub对象，也就是一个AbstractClassLoaderValue对象，这个对象是Proxy类跟据要实现接口类型生成的，我们来看AbstractClassLoaderValue的equals方法,可以看出以Sub为key，就是以“要实现的接口和Proxy对象中的一个静态字段，以为静态字段总是固定）为key。value是一个构造器。
 简单来说，整个缓存机制就是每个类加载器存储不同的ConcurrentHashmap，map以接口Class为key，以构造器对象为value。
 而cglib中的缓存机制是，每个增强类存储一个WeakHashMap，以类加载器为key，data为value，这个第一层的map中只能有一个key，而data中有一个ConcurrentHashMap，以目标类的信息为key，以代理类的Class对象为value，value为弱引用
+
 ```java
 public boolean equals(Object o) {  
     if (this == o) return true;  
