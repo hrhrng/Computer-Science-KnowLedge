@@ -48,6 +48,7 @@
 	* [RoundRobinLoadBalance](files/RoundRobinLoadBalance.md)
 	* [本地缓存结构](files/LocalCache.md)
 	* 缓存一致性
+	* [顺序一致性](files/顺序一致性.md)
 	* [实现LoadingCache](files/实现LoadingCache.md)
 	* 序列化
 	  * protobuff
